@@ -7,27 +7,12 @@
         <title></title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
-    <style>
-        body{
-            background-color: black;
-            color: white;
-        }
-        div{
-            background-color: black;
-        }
-        #mytext{
-            background-color: black;
-            color: white;
-        }
-        
-        
-    </style>
-    <body data-bs-theme="dark" >
+    <body data-bs-theme="dark">
 
         <div class="container-fluid">
 
             <div class="container-fluid position-relative">
-                <button class="btn btn-outline-warning position-absolute top-0 end-0 mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <button class="btn btn-outline-info position-absolute top-0 end-0 mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <img src="src/hm.jpg" style="max-width: 30px;">
                 </button>
             </div>
@@ -45,7 +30,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contatti</a>
                         </li>
-                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Listino
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Bar</a></li>
+                                <li><a class="dropdown-item" href="#">Carta dei Vini</a></li>
+                                <!-- <li>
+                                                    <hr class="dropdown-divider">
+                                                </li> -->
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -61,11 +58,11 @@
                         <img src="src/vino.jpg" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title "><a href="#" class="btn btn-outline-warning mt-5">VINI</a></h5>
+                        <div class="card-body mt-5">
+                            <h5 class="card-title ">WINE BAR</h5>
                             <p class="card-text mt-3">Una buona selezione di vini da gustare e conoscere</p>
                             <p class="card-text"><small class="text-muted"><p>“Grande è la fortuna di colui che possiede una buona bottiglia, un buon libro, un buon amico”</p> Molìere</small></p>
-                            
+                            <a href="#" class="btn btn-outline-info mt-5">Lista dei Vini</a>
                         </div>
             
                     </div>
@@ -79,9 +76,10 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title"><a href="#" class="btn btn-outline-warning mt-5">APERITIVI</a></h5>
+                            <h5 class="card-title">APERITIVI</h5>
                             <p class="card-text mt-3">Scegli il tuo drink preferito da gustare accompagnato da qualche sfiziosità</p>
                             <p class="card-text"><small class="text-muted"><p>“La pace nel mondo ha sicuramente in mano un aperitivo“</p> Anonimo</small></p>
+                            <a href="#" class="btn btn-outline-info mt-5">I Nostri Drink</a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +92,10 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title"><a href="#" class="btn btn-outline-warning mt-5">CAFFETTERIA</a></h5>
+                            <h5 class="card-title">BAR</h5>
                             <p class="card-text mt-3">Per una calda colazione o un caffè fugace</p>
                             <p class="card-text"><small class="text-muted"><p>“Risvegliarsi è mettersi alla ricerca del mondo“</p> Émile-Auguste Chartier</small></p>
+                            <a href="#" class="btn btn-outline-info mt-5">La Caffetteria</a>
                         </div>
                     </div>
                 </div>
@@ -109,9 +108,10 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title"><a href="#" class="btn btn-outline-warning mt-5">PRANZO</a></h5>
+                            <h5 class="card-title">Pranzo</h5>
                             <p class="card-text mt-3">Per un buon pranzo</p>
                             <p class="card-text"><small class="text-muted"><p>“Uno non può pensare bene, amare bene, dormire bene, se non ha mangiato bene“</p> Virginia Woolf</small></p>
+                            <a href="#" class="btn btn-outline-info mt-5">La Cucina</a>
                         </div>
                     </div>
                 </div>
